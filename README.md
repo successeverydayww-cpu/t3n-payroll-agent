@@ -80,3 +80,6 @@ t3n-payroll-agent/
 ## License
 
 MIT
+
+
+**Demo video:** [docs/demo.mp4](docs/demo.mp4) — 57-second walkthrough of a full payroll run.
