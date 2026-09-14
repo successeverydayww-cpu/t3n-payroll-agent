@@ -1,0 +1,21 @@
+{
+  "name": "t3n-payroll-agent",
+  "version": "1.0.0",
+  "description": "A trusted payroll agent built on the Terminal 3 Network (T3N) Agent Developer Kit — reads HR data and triggers bank transfers without ever holding raw account numbers.",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "demo": "node dist/index.js --demo"
+  },
+  "keywords": ["t3n", "terminal3", "trusted-agents", "payroll", "tee", "did", "a2a", "mcp"],
+  "license": "MIT",
+  "dependencies": {
+    "@terminal3/t3n-sdk": "*"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
